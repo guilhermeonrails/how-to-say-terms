@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Como Pronunciar — Termos Tech</title>
+  <meta name="description" content="Guia de pronúncia dos 500 termos tech mais comuns em português. Aprenda a falar API, Deploy, Backend e muito mais corretamente." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-badge">📖 Guia de Pronúncia</div>
+    <h1>Como Pronunciar<br><span>Termos Tech</span></h1>
+    <p>Aprenda a pronunciar os <strong>500 termos técnicos</strong> mais usados em tecnologia — sem vergonha, sem erro.</p>
+    <div class="search-wrapper">
+      <span class="search-icon">🔎</span>
+      <input
+        type="text"
+        id="search"
+        placeholder="Buscar termo, pronúncia ou significado..."
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <button id="clear-search" title="Limpar busca">✕</button>
+    </div>
+  </header>
+
+  <nav class="controls">
+    <div class="controls-inner">
+      <div class="letters-row">
+        <span class="letters-label">Filtrar</span>
+        <button class="letter-btn active" data-letter="all">Todos</button>
+        <button class="letter-btn" data-letter="A">A</button>
+        <button class="letter-btn" data-letter="B">B</button>
+        <button class="letter-btn" data-letter="C">C</button>
+        <button class="letter-btn" data-letter="D">D</button>
+        <button class="letter-btn" data-letter="E">E</button>
+        <button class="letter-btn" data-letter="F">F</button>
+        <button class="letter-btn" data-letter="G">G</button>
+        <button class="letter-btn" data-letter="H">H</button>
+        <button class="letter-btn" data-letter="I">I</button>
+        <button class="letter-btn" data-letter="J">J</button>
+        <button class="letter-btn" data-letter="K">K</button>
+        <button class="letter-btn" data-letter="L">L</button>
+        <button class="letter-btn" data-letter="M">M</button>
+        <button class="letter-btn" data-letter="N">N</button>
+        <button class="letter-btn" data-letter="O">O</button>
+        <button class="letter-btn" data-letter="P">P</button>
+        <button class="letter-btn" data-letter="Q">Q</button>
+        <button class="letter-btn" data-letter="R">R</button>
+        <button class="letter-btn" data-letter="S">S</button>
+        <button class="letter-btn" data-letter="T">T</button>
+        <button class="letter-btn" data-letter="U">U</button>
+        <button class="letter-btn" data-letter="V">V</button>
+        <button class="letter-btn" data-letter="W">W</button>
+        <button class="letter-btn" data-letter="X">X</button>
+        <button class="letter-btn" data-letter="Y">Y</button>
+        <button class="letter-btn" data-letter="Z">Z</button>
+      </div>
+      <div class="bottom-row">
+        <span id="counter"></span>
+        <div class="sort-row">
+          <span class="sort-label">Ordem</span>
+          <button class="sort-btn active" data-sort="az">A → Z</button>
+          <button class="sort-btn" data-sort="za">Z → A</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div id="terms-grid"></div>
+  </main>
+
+  <footer>
+    Feito para ajudar devs brasileiros a <strong>falar tech com confiança</strong> 🚀
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
