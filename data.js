@@ -30,7 +30,7 @@ const techTerms = [
   { word: "Avatar", pronunciation: "Éi-ve-tár", meaning: "Representação visual de um usuário em plataformas digitais" },
   { word: "AWS", pronunciation: "Éi-Dâb-iú-És", meaning: "Amazon Web Services — plataforma de computação em nuvem da Amazon" },
   { word: "Axios", pronunciation: "Ék-si-ós", meaning: "Biblioteca JavaScript para fazer requisições HTTP" },
-  { word: "Azure", pronunciation: "Éi-zhêr", meaning: "Plataforma de computação em nuvem da Microsoft" },
+  { word: "Azure", pronunciation: "É-jorr", meaning: "Plataforma de computação em nuvem da Microsoft" },
   { word: "Backend", pronunciation: "Béck-ênd", meaning: "Parte do servidor de uma aplicação que processa dados e lógica" },
   { word: "Backlog", pronunciation: "Béck-lóg", meaning: "Lista de tarefas e funcionalidades pendentes de um projeto" },
   { word: "Backup", pronunciation: "Béck-ãp", meaning: "Cópia de segurança de dados para recuperação em caso de falha" },
