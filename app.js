@@ -18,8 +18,7 @@ function getFiltered() {
     const q = normalize(currentSearch);
     const matchesSearch = !q ||
       normalize(term.word).includes(q) ||
-      normalize(term.pronunciation).includes(q) ||
-      normalize(term.meaning).includes(q);
+      normalize(term.pronunciation).includes(q);
     return matchesLetter && matchesSearch;
   }).sort((a, b) => {
     if (currentSort === 'az') return a.word.localeCompare(b.word);
